@@ -23,6 +23,9 @@ export default function OrgPage() {
             orgId: selectedOrg.organization?.id,
             title: blogtitle
         })
+        
+        setblogtitle('');
+        setblogcontent('');
     }
 
     return (
