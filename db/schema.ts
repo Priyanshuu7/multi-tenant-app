@@ -7,6 +7,5 @@ export const blogTable = pgTable('blogs', {
   orgId: text().notNull(),
 });
 
-
-export type CreateBlogType = typeof blogTable.$inferInsert
-export type SelectBlogType = typeof blogTable.$inferSelect
+export type CreateBlogType = typeof blogTable.$inferInsert;
+export type SelectBlogType = typeof blogTable.$inferSelect;
